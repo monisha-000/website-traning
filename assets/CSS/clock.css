@@ -1,0 +1,20 @@
+body {  
+    text-align:  center;
+    line-height: 2;
+
+font-family: 'Shrikhand', cursive;
+}
+h1{
+	color:#ff0000;
+	font-size: 50px;
+}	
+
+#showTime {
+	display: inline;
+	
+	color: #001aff;
+	padding: 10px;     
+    font-size: 50px;
+   /* font-family: Orbitron;*/
+    letter-spacing: 7px;
+   
