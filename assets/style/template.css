@@ -247,6 +247,9 @@ header nav a:hover{
  {
  	text-align: center;
  }
+ #gallery p{
+ 	margin-bottom: 42px;
+ }
   .gallery_imagePart{
   	margin-top: 20px;
   	display: grid;
@@ -274,7 +277,7 @@ header nav a:hover{
 
 	width: 100%;
 	height: auto;
-	margin: 60px 0 40px 60px;
+	margin: 80px 0 40px 60px;
 	display: flex;
 	
 	justify-content: flex-end;
@@ -320,7 +323,7 @@ header nav a:hover{
 /*End the Design page*/
 /*Start the Latest News page*/
 #latestNews{
-	margin: 20px;
+	margin: 30px 20px;
 	padding-bottom: 30px;
 	position: relative;
 	background-color: #fafafa;
@@ -585,9 +588,14 @@ footer{
 		left:42%; 
 	}
 
+
 	#home{
 		overflow-y: hidden;
 	}
+	#design{
+
+		display: flex;
+		flex-direction: column;
 
 }
 @media only screen and (max-width: 550px) {
